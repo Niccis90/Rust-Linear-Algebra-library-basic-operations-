@@ -2,13 +2,14 @@
 This is my self made linear algebra library, that has basic features.
 
 Rust Matrix and Vector Operations Library
-Overview
+
+-Overview:
 
 This library is a comprehensive collection of mathematical operations for matrix and vector manipulation in Rust. It provides functionality for matrix multiplication, scalar operations on matrices and vectors, matrix transposition, matrix addition and subtraction, bias addition to matrices, as well as utilities for generating random matrices and vectors. Additionally, it includes a CSV reader for converting CSV data into a matrix.
 
-Modules
+Modules:
 
-matrix_ops
+-matrix_ops
 
 This module includes functions for various matrix operations:
 
@@ -22,7 +23,7 @@ add_bias: Add a bias vector to each row of a matrix.
 matrix_subtraction: Subtract one matrix from another.
 create_random_matrix: Generate a matrix with random elements.
 
-vector_ops
+-vector_ops
 
 This module includes functions for vector operations:
 
@@ -33,7 +34,7 @@ vector_add: Add two vectors.
 vector_subtract: Subtract one vector from another.
 create_random_vector: Generate a vector with random elements.
 
-csv_reader
+-csv_reader
 
 This module provides a function to read CSV files into a vector of vectors:
 
