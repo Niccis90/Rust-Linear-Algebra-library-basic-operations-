@@ -14,24 +14,38 @@ Modules:
 This module includes functions for various matrix operations:
 
 matrix_multiply: Multiply two matrices.
+
 scalar_multiply: Multiply each element of a matrix by a scalar.
+
 scalar_subtract: Subtract a scalar from each element of a matrix.
+
 scalar_add: Add a scalar to each element of a matrix.
+
 transpose: Transpose a matrix.
+
 matrix_add: Add two matrices.
+
 add_bias: Add a bias vector to each row of a matrix.
+
 matrix_subtraction: Subtract one matrix from another.
+
 create_random_matrix: Generate a matrix with random elements.
+
 
 -vector_ops
 
 This module includes functions for vector operations:
 
 vector_scalar_multiply: Multiply each element of a vector by a scalar.
+
 vector_scalar_subtract: Subtract a scalar from each element of a vector.
+
 vector_scalar_add: Add a scalar to each element of a vector.
+
 vector_add: Add two vectors.
+
 vector_subtract: Subtract one vector from another.
+
 create_random_vector: Generate a vector with random elements.
 
 -csv_reader
